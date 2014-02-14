@@ -28,3 +28,11 @@ a {
 .btn:hover {
 	background: rgba(50,87,111,0.34)
 }
+
+@media screen and (max-width: 705px){
+
+	#contact{
+		text-align: center;
+	}
+
+}
