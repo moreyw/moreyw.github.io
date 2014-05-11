@@ -33,7 +33,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="./index.html">Home</a></li>
+                <li ><a href="./index.html">Home</a></li>
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -47,29 +47,32 @@
 
 
         <div class="container" role="main">
-            <div class="col-md-8">
-                <div class="jumbotron">
-                    <h1> Morey Wood </h1>
-                    <p> 
-                        My name is Morey Wood, this is my website. I am a Computer Science student at Mississippi State University. 
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                      <h2 class="panel-title">Contact</h2>
-                    </div>
-                    <div class="panel-body">
-                      <a href="mailto:morey.wood@gmail.com" class="btn btn-primary btn-block">Email</a>
-                      <a href="https://twitter.com/moreywood" class="btn btn-primary btn-block">Twitter</a>
-                      <a href="https://www.linkedin.com/pub/morey-wood/89/849/2ab" class="btn btn-primary btn-block">LinkedIn</a>
-                      <a href="https://github.com/moreyw" class="btn btn-primary btn-block">GitHub</a>
-                    </div>
-                  </div>
-            </div>
-
+          <div class="well">
+              <h1> Vote Comparer </h1>
+              <p> 
+                  A simple script to compare votes of pairs of Representatives/Senators of the US congress.
+                  Prompts user to enter the name of the Rep/Sen that should be searched for. Will output a .csv file with all of the votes that the members voted together on.
+                  <br/>
+                  <br/>
+                  Run voteComparer.py using Python 2.7
+                  <br/>
+                  <br/>
+                  Currently uses the <a href="http://sunlightfoundation.com/api/">Sunlight Foundaiton API</a> to access the voting history of different members of the US House and Senate, and then compare their votes on all of the bills that they both voted on. 
+                  <br/>
+                  <br/>
+                  Requires an <a href="http://sunlightfoundation.com/api/accounts/register/">Sunlight Foundation API key</a>, which can be obtained at the Snlight Foundation website.
+                  <br/>
+                  <br/>
+                  Once an API Key has been obtained, it should be placed in the variable on line 6.
+                  <br/>
+                  <br/>
+                  Currently only access votes from 2009-Present.
+                  <br/>
+                  <br/>
+                  Last updated: May 2013
+              </p>
+              <a href="https://github.com/moreyw/voteComparer" class="btn btn-success">View on Github</a>
+          </div>
         </div>
 
         <!-- Bootstrap core JavaScript
