@@ -3,7 +3,7 @@ layout: post
 title:  "NVision Internship"
 categories: "work"
 duration: "May 2012-July 2012"
-image: "http://placehold.it/350x250"
+image: "img/nvision.png"
 deck: "Explored and reported on various open source alternatives to currently in use products. Created GIS prototypes to allow users to log incident locations and descriptions on a map and subsequently store that information in a database for later use.​"
 type: "work"
 job: "Intern"
