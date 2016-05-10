@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Morey Wood</title>
+    <description>Graduate Computer Science student at Mississippi State University.</description>
+    <link>http://moreywood.com/</link>
+    <atom:link href="http://moreywood.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 May 2016 09:42:43 -0500</pubDate>
+    <lastBuildDate>Tue, 10 May 2016 09:42:43 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.3</generator>
+    
+      <item>
+        <title>Fedex Internship</title>
+        <description>&lt;p&gt;Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 May 2014 00:00:00 -0500</pubDate>
+        <link>http://moreywood.com/work/2014/05/07/fedex.html</link>
+        <guid isPermaLink="true">http://moreywood.com/work/2014/05/07/fedex.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Tarsus</title>
+        <description>&lt;p&gt;Tarsus is a web based role playing game that allows users to create their own characters every time they play. It was created as a group project in my Distributed Client Serve Programming class.&lt;/p&gt;
+
+&lt;p&gt;The store page
+Once a user created a character they could then buy items from a shop, upgrade items with the blacksmith, or fight other characters of the same level. A user could keep playing with and upgrading the character until they lost in a fight.&lt;/p&gt;
+
+&lt;p&gt;A list of one user’s fallen characters
+After losing a battle a character would be considered “dead.” The dead characters were the ones that would be called upon to fight new user characters. This allowed for players to try to make as strong a character as possible so that it would be more and more difficult for other players to advance with their own characters.&lt;/p&gt;
+
+&lt;p&gt;We used a Java for the backend and logic of the project and a MySQL database to store information about the characters and the items that they used. I was responsible for the HTML and CSS for the project as well as the database design and the Java functions that interacted with it.​&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Nov 2013 00:00:00 -0600</pubDate>
+        <link>http://moreywood.com/project/2013/11/07/tarsus.html</link>
+        <guid isPermaLink="true">http://moreywood.com/project/2013/11/07/tarsus.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Vote Comparer</title>
+        <description>&lt;p&gt;A simple script to compare votes of pairs of Representatives/Senators of the US congress. Prompts user to enter the name of the Rep/Sen that should be searched for. Will output a .csv file with all of the votes that the members voted together on.&lt;/p&gt;
+
+&lt;p&gt;Run voteComparer.py using Python 2.7&lt;/p&gt;
+
+&lt;p&gt;Currently uses the Sunlight Foundaiton API to access the voting history of different members of the US House and Senate, and then compare their votes on all of the bills that they both voted on.&lt;/p&gt;
+
+&lt;p&gt;Requires an Sunlight Foundation API key, which can be obtained at the Snlight Foundation website.&lt;/p&gt;
+
+&lt;p&gt;Once an API Key has been obtained, it should be placed in the variable on line 6.&lt;/p&gt;
+
+&lt;p&gt;Currently only access votes from 2009-Present.​&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
+        <link>http://moreywood.com/project/2013/05/07/vote-comparer.html</link>
+        <guid isPermaLink="true">http://moreywood.com/project/2013/05/07/vote-comparer.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Automated Advising</title>
+        <description>
+</description>
+        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
+        <link>http://moreywood.com/project/2013/05/07/automated-advising.html</link>
+        <guid isPermaLink="true">http://moreywood.com/project/2013/05/07/automated-advising.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>USMI Internship</title>
+        <description>&lt;p&gt;Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
+        <link>http://moreywood.com/work/2013/05/07/usmi.html</link>
+        <guid isPermaLink="true">http://moreywood.com/work/2013/05/07/usmi.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>NVision Internship</title>
+        <description>&lt;p&gt;Explored and reported on various open source alternatives to currently in use products. Created GIS prototypes to allow users to log incident locations and descriptions on a map and subsequently store that information in a database for later use.​&lt;/p&gt;
+</description>
+        <pubDate>Mon, 07 May 2012 00:00:00 -0500</pubDate>
+        <link>http://moreywood.com/work/2012/05/07/nvision.html</link>
+        <guid isPermaLink="true">http://moreywood.com/work/2012/05/07/nvision.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+  </channel>
+</rss>

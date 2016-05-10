@@ -1,0 +1,29 @@
+<!-- Footer -->
+<footer>
+	<div class="footer-nav">
+		<div class="text-md-left">
+			<p>Created using Jekyll, Font-Awesome, and Bootstrap</p>
+		</div>
+		<div class="text-md-right">
+			{% if site.display_email %}
+			<a type="button" class="footer-link" href="mailto:{{ site.display_email }}">
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+			</a>
+			{% endif %}
+			{% if site.twitter_username %}
+			<a type="button" class="footer-link" href="https://www.twitter.com/{{ site.twitter_username }}">
+				<i class="fa fa-twitter" aria-hidden="true"></i>
+			</a>
+			{% endif %}
+			{% if site.github_username %}
+			<a type="button" class="footer-link" href="https://www.github.com/{{ site.github_username }}">
+				<i class="fa fa-github-alt" aria-hidden="true"></i>
+			</a>
+			{% endif %}
+			{% if site.linkedin_username %}
+				<a type="button" class="footer-link" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+			{% endif %}
+		</div>
+	</div>
+</footer>
+<!-- /Footer -->

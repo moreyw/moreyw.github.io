@@ -1,0 +1,114 @@
+@import "bootstrap/bootstrap";
+@import "font-awesome/scss/font-awesome";
+
+
+$primary-color: #3CB371;
+$secondary-color: lighten($primary-color, 90%);
+$tertiary-color: darken($primary-color, 20%);
+
+.title-block{
+	@extend .jumbotron; 
+	@extend .jumbotron-fluid;
+	background-color: $primary-color;
+	color: $secondary-color;
+	div {
+		@extend .container;
+		@extend .text-sm-center;
+		h1 {
+			@extend .display-3;
+		}
+		p {
+			@extend .lead;
+		}
+	}
+	
+}
+
+//Main Page Subsections
+.sub-section{
+	@extend .row; 
+	@extend .p-b-3;
+	h3{
+		@extend .display-4;
+		@extend .text-sm-center;
+		color: $tertiary-color
+	}
+	.card-item{
+		@extend .col-lg-4;
+		@extend .col-md-6;
+		img{
+			@extend .img-fluid;
+		}
+		h4 {
+			@extend .m-t-1;
+			color: $tertiary-color
+		}
+		h6 {
+			@extend .text-muted;
+		}
+					
+	}
+}
+
+.text-section{
+	@extend .col-md-8;
+	@extend .col-md-offset-2;
+}
+
+//Heading Buttons in the Jumbotron
+.heading-button{
+	@extend .btn;
+	@extend .btn-secondary;
+	@extend .m-y-1;
+	@extend .m-x-auto;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	background-color: $tertiary-color;
+	border-color: lighten($tertiary-color, 80%);
+	color: lighten($tertiary-color, 80%);
+}
+
+//Navbar
+.head-nav{
+	@extend .navbar-light;
+	@extend .bg-faded;
+	@extend .navbar-fixed-top;
+	background-color: $primary-color;
+	color: $secondary-color;
+	
+	div {
+		@extend .container;
+	}
+	.navbar-nav .nav-link.active {
+		color: $secondary-color;
+	}
+	.navbar-nav .nav-link {
+		color: $tertiary-color;
+	}
+}
+
+//Links in the footer
+.footer-link{
+	@extend .btn;
+	@extend .btn-secondary;
+	@extend .m-x-auto;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	background-color: $tertiary-color;
+	border-color: lighten($tertiary-color, 80%);
+	color: lighten($tertiary-color, 80%);
+}
+
+footer{
+	@extend .p-y-1;
+	background-color: $primary-color;
+	color: $secondary-color;
+	div{
+		@extend .container;
+		div {
+			@extend .col-md-6;
+		}
+	}
+	
+}
+

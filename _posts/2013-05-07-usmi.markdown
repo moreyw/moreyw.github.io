@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "USMI Internship"
+categories: "work"
+duration: "May 2013-July 2013"
+image: "http://placehold.it/350x250"
+deck: "Strived to provide technical support to various members of the company. I also worked to automate some time consuming processes so that they could be performed much more efficiently.​​"
+type: "work"
+job: "Intern"
+---
+
+
+Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​

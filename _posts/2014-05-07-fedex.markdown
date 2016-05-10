@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Fedex Internship"
+categories: "work"
+duration: "June 2014-August 2014"
+image: "http://placehold.it/350x250"
+deck: "Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​"
+type: "work"
+job: "Intern Programmer Analyst"
+---
+
+
+Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​
