@@ -1,81 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="author" content="">
-        <link href="./css/normalize.css" rel="stylesheet">
-        <title>Morey Wood</title>
+---
+layout: default
+---
 
-        <!-- Bootstrap core CSS -->
-        <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Bootstrap theme -->
-        <link href="./dist/css/bootstrap-theme.min.css" rel="stylesheet">
-    </head>
-
-    <body role="document">
-
-        <nav class="navbar navbar-default" role="navigation">
-          <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Morey Wood</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="./voteComparer.html">Vote Comparer</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
-        </nav>
-
-
-        <div class="container" role="main">
-            <div class="col-md-8">
-                <div class="jumbotron">
-                    <h1> Morey Wood </h1>
-                    <p> 
-                        My name is Morey Wood, this is my website. I am a Computer Science student at Mississippi State University. 
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="panel panel-primary">
-                    <div class="panel-heading">
-                      <h2 class="panel-title">Contact</h2>
-                    </div>
-                    <div class="panel-body">
-                      <a href="mailto:morey.wood@gmail.com" class="btn btn-primary btn-block">Email</a>
-                      <a href="https://twitter.com/moreywood" class="btn btn-primary btn-block">Twitter</a>
-                      <a href="https://www.linkedin.com/pub/morey-wood/89/849/2ab" class="btn btn-primary btn-block">LinkedIn</a>
-                      <a href="https://github.com/moreyw" class="btn btn-primary btn-block">GitHub</a>
-                    </div>
-                  </div>
-            </div>
-
-        </div>
-
-        <!-- Bootstrap core JavaScript
-        ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="./dist/js/bootstrap.min.js"></script>
-    </body>
-</html>
+		<!-- Jumbotron -->
+		<div class="title-block">
+			<div>
+				<h1>{{ site.creator_name }}</h1>
+				<p>{{ site.description}}  </p>
+				{% if site.display_email %}
+					<a type="button" class="heading-button" href="mailto:{{ site.display_email }}"><i class="fa fa-envelope" aria-hidden="true"></i> {{ site.display_email }}</a>
+				{% endif %}
+				{% if site.twitter_username %}
+				<a type="button" class="heading-button" href="https://www.twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter" aria-hidden="true"></i> @{{site.twitter_username}}</a>
+				{% endif %}
+				{% if site.github_username %}
+				<a type="button" class="heading-button" href="https://www.github.com/{{ site.github_username }}">
+						<i class="fa fa-github-alt" aria-hidden="true"></i> {{site.github_username}}
+				</a>
+				{% endif %}
+				{% if site.linkedin_username %}
+				<a type="button" class="heading-button" href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><i class="fa fa-linkedin" aria-hidden="true"></i> {{site.linkedin_username}}</a>
+				{% endif %}
+			</div>
+		</div>
+		<!-- /Jumbotron -->
+		
+		<!-- Main Container -->
+		<div class="container">
+			
+			<!-- Education -->
+			<div id="education" class="sub-section">
+				<h3>Education</h3>
+				<div class="text-section">
+					<p>{{ site.education }}</p>
+				</div>
+			</div>
+			<!-- /Education -->
+			
+			
+			<!-- Work -->
+			<div id="work" class="sub-section">
+				<h3>Work</h3>
+				<!-- Job Loop -->
+				{% assign jobs = site.posts | where: "type", "work" %}
+				{% for each_job in jobs %}
+				<div class="card-item">
+					<img src="{{each_job.image}}">
+					<h4>{{each_job.title}}</h4>
+					<h6>{{each_job.duration}}</h6>
+					<p>{{ each_job.deck }}</p>
+				</div>
+				{% endfor %}
+				<!-- /Job Loop -->
+			</div>
+			<!-- /Work -->
+			
+			
+			<!-- Projects -->
+			<div id="projects" class="sub-section">
+				<h3>Projects</h3>
+				<!-- Project Loop -->
+				{% assign projects = site.posts| where:"type", "project" %}
+				{% for each_project in projects %}
+				<div class="card-item">
+					<img src="{{each_project.image}}">
+					<h4>{{each_project.title}}</h4>
+					<h6>{{each_project.duration}}</h6>
+					<p>{{ each_project.deck }}</p>
+				</div>
+				{% endfor %}
+				<!-- /Project Loop -->
+			</div>
+			<!-- /Projects -->
+		</div>
+		<!-- /Main Container -->
