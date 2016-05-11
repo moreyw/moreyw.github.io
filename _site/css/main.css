@@ -4336,7 +4336,7 @@ button.close {
 .text-xs-right {
   text-align: right !important; }
 
-.text-xs-center {
+.text-xs-center, .title-block div, .sub-section h3, footer div .links {
   text-align: center !important; }
 
 @media (min-width: 544px) {
@@ -4346,13 +4346,13 @@ button.close {
   .text-sm-right {
     text-align: right !important; }
 
-  .text-sm-center, .title-block div, .sub-section h3 {
+  .text-sm-center {
     text-align: center !important; } }
 @media (min-width: 768px) {
-  .text-md-left {
+  .text-md-left, footer div .description {
     text-align: left !important; }
 
-  .text-md-right {
+  .text-md-right, footer div .links {
     text-align: right !important; }
 
   .text-md-center {
@@ -4636,7 +4636,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 .p-a-3 {
   padding: 3rem 3rem !important; }
 
-.p-t-3 {
+.p-t-3, .title-block {
   padding-top: 3rem !important; }
 
 .p-r-3 {
@@ -4675,7 +4675,7 @@ a.bg-danger:focus, a.bg-danger:hover {
     display: none !important; } }
 
 @media (max-width: 767px) {
-  .hidden-sm-down {
+  .hidden-sm-down, footer div .description {
     display: none !important; } }
 
 @media (min-width: 768px) {

@@ -9,11 +9,12 @@ $tertiary-color: darken($primary-color, 20%);
 .title-block{
 	@extend .jumbotron; 
 	@extend .jumbotron-fluid;
+	@extend .p-t-3;
 	background-color: $primary-color;
 	color: $secondary-color;
 	div {
 		@extend .container;
-		@extend .text-sm-center;
+		@extend .text-xs-center;
 		h1 {
 			@extend .display-3;
 		}
@@ -30,7 +31,7 @@ $tertiary-color: darken($primary-color, 20%);
 	@extend .p-b-3;
 	h3{
 		@extend .display-4;
-		@extend .text-sm-center;
+		@extend .text-xs-center;
 		color: $tertiary-color
 	}
 	.card-item{
@@ -105,6 +106,14 @@ footer{
 	color: $secondary-color;
 	div{
 		@extend .container;
+		.description{
+			@extend .text-md-left;
+			@extend .hidden-sm-down;
+		}
+		.links{
+			@extend .text-xs-center;
+			@extend .text-md-right;
+		}
 		div {
 			@extend .col-md-6;
 		}
