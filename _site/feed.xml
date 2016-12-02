@@ -2,90 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Morey Wood</title>
-    <description>Graduate Computer Science student at Mississippi State University.</description>
-    <link>http://moreywood.com/</link>
-    <atom:link href="http://moreywood.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 May 2016 12:09:44 -0500</pubDate>
-    <lastBuildDate>Wed, 11 May 2016 12:09:44 -0500</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <description>Looking for Opportunities to Design, Implement, and Evaluate User Interfaces to Improve Overall Usability and Create Positive User Experiences.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 02 Dec 2016 00:27:28 -0600</pubDate>
+    <lastBuildDate>Fri, 02 Dec 2016 00:27:28 -0600</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Fedex Internship</title>
-        <description>&lt;p&gt;Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 May 2014 00:00:00 -0500</pubDate>
-        <link>http://moreywood.com/work/2014/05/07/fedex.html</link>
-        <guid isPermaLink="true">http://moreywood.com/work/2014/05/07/fedex.html</guid>
-        
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>Tarsus</title>
-        <description>&lt;p&gt;Tarsus is a web based role playing game that allows users to create their own characters every time they play. It was created as a group project in my Distributed Client Serve Programming class.&lt;/p&gt;
-
-&lt;p&gt;The store page
-Once a user created a character they could then buy items from a shop, upgrade items with the blacksmith, or fight other characters of the same level. A user could keep playing with and upgrading the character until they lost in a fight.&lt;/p&gt;
-
-&lt;p&gt;A list of one user’s fallen characters
-After losing a battle a character would be considered “dead.” The dead characters were the ones that would be called upon to fight new user characters. This allowed for players to try to make as strong a character as possible so that it would be more and more difficult for other players to advance with their own characters.&lt;/p&gt;
-
-&lt;p&gt;We used a Java for the backend and logic of the project and a MySQL database to store information about the characters and the items that they used. I was responsible for the HTML and CSS for the project as well as the database design and the Java functions that interacted with it.​&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Nov 2013 00:00:00 -0600</pubDate>
-        <link>http://moreywood.com/project/2013/11/07/tarsus.html</link>
-        <guid isPermaLink="true">http://moreywood.com/project/2013/11/07/tarsus.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Vote Comparer</title>
-        <description>&lt;p&gt;A simple script to compare votes of pairs of Representatives/Senators of the US congress. Prompts user to enter the name of the Rep/Sen that should be searched for. Will output a .csv file with all of the votes that the members voted together on.&lt;/p&gt;
-
-&lt;p&gt;Run voteComparer.py using Python 2.7&lt;/p&gt;
-
-&lt;p&gt;Currently uses the Sunlight Foundaiton API to access the voting history of different members of the US House and Senate, and then compare their votes on all of the bills that they both voted on.&lt;/p&gt;
-
-&lt;p&gt;Requires an Sunlight Foundation API key, which can be obtained at the Snlight Foundation website.&lt;/p&gt;
-
-&lt;p&gt;Once an API Key has been obtained, it should be placed in the variable on line 6.&lt;/p&gt;
-
-&lt;p&gt;Currently only access votes from 2009-Present.​&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
-        <link>http://moreywood.com/project/2013/05/07/vote-comparer.html</link>
-        <guid isPermaLink="true">http://moreywood.com/project/2013/05/07/vote-comparer.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>Automated Advising</title>
+        <title>Graduate Research Assistant at Center for Advanced Vehicular Systems</title>
         <description>
 </description>
-        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
-        <link>http://moreywood.com/project/2013/05/07/automated-advising.html</link>
-        <guid isPermaLink="true">http://moreywood.com/project/2013/05/07/automated-advising.html</guid>
-        
-        
-        <category>project</category>
-        
-      </item>
-    
-      <item>
-        <title>USMI Internship</title>
-        <description>&lt;p&gt;Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​&lt;/p&gt;
-</description>
-        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
-        <link>http://moreywood.com/work/2013/05/07/usmi.html</link>
-        <guid isPermaLink="true">http://moreywood.com/work/2013/05/07/usmi.html</guid>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/work/2016/12/01/gradassistant.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2016/12/01/gradassistant.html</guid>
         
         
         <category>work</category>
@@ -93,12 +23,90 @@ After losing a battle a character would be considered “dead.” The dead chara
       </item>
     
       <item>
-        <title>NVision Internship</title>
-        <description>&lt;p&gt;Explored and reported on various open source alternatives to currently in use products. Created GIS prototypes to allow users to log incident locations and descriptions on a map and subsequently store that information in a database for later use.​&lt;/p&gt;
+        <title>Auto Manufacturer Project II</title>
+        <description>&lt;p&gt;Worked with the manufacturer and their suppliers to design software solution to improve workflow. Created interactive mockups using the InVision prototyping tool to get feedback on early designs. Led the team in development of the application after the design was approved.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/project/2016/12/01/automanufacturerII.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2016/12/01/automanufacturerII.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Auto Manufacturer Project I</title>
+        <description>&lt;p&gt;Developed an application to simplify the process of creating reports on incidents from the factory floor. Assumed responsibility for development of the iPad version the app after a previous team member departed the project. Developed the app using Swift and Realm Mobile Database. Preserved the core of the original interface design while accommodating new requirements.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 01 Dec 2016 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/project/2016/12/01/automanufacturerI.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2016/12/01/automanufacturerI.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Employee Scheduling App</title>
+        <description>&lt;p&gt;Designed and implemented a multi-platform application to allow temporary employees to schedule working hours themselves rather than needing to contact someone at the company. Used InVision to provide interactive prototypes during development to show stakeholders how the final app would function. Was responsible for the HTML/CSS/Sass to create the interface for the app, as well as a large portion of the app’s functionality through JavaScript. The app has since been rolled out to employees.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/project/2015/05/01/SchedulingApp.html</link>
+        <guid isPermaLink="true">http://localhost:4000/project/2015/05/01/SchedulingApp.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Undergraduate Research Assistant at Center for Advanced Vehicular Systems</title>
+        <description>&lt;p&gt;This project involved the design, implementation, and evaluation of an interface for multi-user decision making for product acquisitions.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 01 May 2015 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/work/2015/05/01/undergradassistant.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2015/05/01/undergradassistant.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Intern Programmer Analyst at FedEx Services</title>
+        <description>&lt;p&gt;Developed a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. Built a cross-platform mobile app for Android, iOS, and Windows Phone was built using an Agile development methodology. Received Fan Favorite, Customer Focus, and Director’s Choice awards.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 May 2014 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/work/2014/05/07/fedex.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2014/05/07/fedex.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Intern at United States Marine Inc.</title>
+        <description>&lt;p&gt;Provided technical support, developed tools to automate time consuming procedure and conducted hardware and software surveys to allow for better management of hardware and software licenses.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 07 May 2013 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/work/2013/05/07/usmi.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2013/05/07/usmi.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
+    
+      <item>
+        <title>Intern at NVision Solutions</title>
+        <description>&lt;p&gt;Explored and reported on three open source alternatives to currently in-use products. Created Geographic Information System prototypes to allow users to log incident locations and descriptions on a map and subsequently store that information in a database for later use.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 May 2012 00:00:00 -0500</pubDate>
-        <link>http://moreywood.com/work/2012/05/07/nvision.html</link>
-        <guid isPermaLink="true">http://moreywood.com/work/2012/05/07/nvision.html</guid>
+        <link>http://localhost:4000/work/2012/05/07/nvision.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/2012/05/07/nvision.html</guid>
         
         
         <category>work</category>

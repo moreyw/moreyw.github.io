@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Vote Comparer"
-date:   2013-05-07
+date:   2018-05-07
 categories: project
 duration: April 2014-May 2014
-deck: "A simple script to compare votes of pairs of Representatives or Senators of the US congress. Written in Python with a command line interface. Outputs a .csv file with all of the votes where both Representatives or Senators voted together since 2009." 
+deck: ""
 type: "project"
 ---
 

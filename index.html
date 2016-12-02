@@ -24,10 +24,10 @@ layout: default
 			</div>
 		</div>
 		<!-- /Jumbotron -->
-		
+
 		<!-- Main Container -->
 		<div class="container">
-			
+
 			<!-- Education -->
 			<div id="education" class="sub-section">
 				<h3>Education</h3>
@@ -36,8 +36,8 @@ layout: default
 				</div>
 			</div>
 			<!-- /Education -->
-			
-			
+
+
 			<!-- Work -->
 			<div id="work" class="sub-section">
 				<h3>Work</h3>
@@ -45,7 +45,6 @@ layout: default
 				{% assign jobs = site.posts | where: "type", "work" %}
 				{% for each_job in jobs %}
 				<div class="card-item">
-					<img src="{{each_job.image}}">
 					<h4>{{each_job.title}}</h4>
 					<h6>{{each_job.duration}}</h6>
 					<p>{{ each_job.deck }}</p>
@@ -54,19 +53,19 @@ layout: default
 				<!-- /Job Loop -->
 			</div>
 			<!-- /Work -->
-			
-			
+
+
 			<!-- Projects -->
 			<div id="projects" class="sub-section">
 				<h3>Projects</h3>
 				<!-- Project Loop -->
 				{% assign projects = site.posts| where:"type", "project" %}
 				{% for each_project in projects %}
-				<div class="card-item">
+				<div class="card-item project">
 					<img src="{{each_project.image}}">
 					<h4>{{each_project.title}}</h4>
-					<h6>{{each_project.duration}}</h6>
-					<p>{{ each_project.deck }}</p>
+					<h6>{{each_project.deck}}</h6>
+					<p>{{ each_project.content }}</p>
 				</div>
 				{% endfor %}
 				<!-- /Project Loop -->

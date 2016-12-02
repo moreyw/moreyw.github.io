@@ -1,13 +1,12 @@
 ---
 layout: post
-title:  "Fedex Internship"
+title:  "Intern Programmer Analyst at FedEx Services"
 categories: "work"
 duration: "June 2014-August 2014"
-image: "img/fedex.png"
-deck: "Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​"
+deck: "Developed a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. Built a cross-platform mobile app for Android, iOS, and Windows Phone was built using an Agile development methodology. Received Fan Favorite, Customer Focus, and Director’s Choice awards."
 type: "work"
 job: "Intern Programmer Analyst"
 ---
 
 
-Worked in an agile development team to develop a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. My team received the Director’s Choice and Customer Focus awards. We built cross platform application for Android, iOS, and Windows Phone.​
+Developed a mobile application to aid in servicing remote servers by using Microsoft Azure to store and interpret information. Built a cross-platform mobile app for Android, iOS, and Windows Phone was built using an Agile development methodology. Received Fan Favorite, Customer Focus, and Director’s Choice awards.

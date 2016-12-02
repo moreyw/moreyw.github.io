@@ -7,7 +7,7 @@ $secondary-color: lighten($primary-color, 90%);
 $tertiary-color: darken($primary-color, 20%);
 
 .title-block{
-	@extend .jumbotron; 
+	@extend .jumbotron;
 	@extend .jumbotron-fluid;
 	@extend .p-t-3;
 	background-color: $primary-color;
@@ -22,21 +22,25 @@ $tertiary-color: darken($primary-color, 20%);
 			@extend .lead;
 		}
 	}
-	
+
 }
 
 //Main Page Subsections
 .sub-section{
-	@extend .row; 
+	@extend .row;
 	@extend .p-b-3;
+	@extend .p-x-3;
 	h3{
 		@extend .display-4;
 		@extend .text-xs-center;
 		color: $tertiary-color
 	}
+	.project{
+		@extend .col-lg-6;
+	}
 	.card-item{
-		@extend .col-lg-4;
-		@extend .col-md-6;
+
+		@extend .col-md-12;
 		img{
 			@extend .img-fluid;
 		}
@@ -47,7 +51,7 @@ $tertiary-color: darken($primary-color, 20%);
 		h6 {
 			@extend .text-muted;
 		}
-					
+
 	}
 }
 
@@ -76,7 +80,7 @@ $tertiary-color: darken($primary-color, 20%);
 	@extend .navbar-fixed-top;
 	background-color: $primary-color;
 	color: $secondary-color;
-	
+
 	div {
 		@extend .container;
 	}
@@ -118,6 +122,5 @@ footer{
 			@extend .col-md-6;
 		}
 	}
-	
-}
 
+}
